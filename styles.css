@@ -13,10 +13,10 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: hsl(185, 75%, 39%);
-    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
     background-repeat: no-repeat, no-repeat;
-    background-position: right 51.5vw bottom 38vh, left 46vw top 55vh;
+    background-color: hsl(185deg, 75%, 39%);
 }
 
 .container {
@@ -46,9 +46,10 @@ article {
     margin-top: -2.5rem;
 }
 
-.profile h3 {
+.profile h1 {
     margin-right: .5rem;
     font-weight: 700;
+    font-size: 1.125rem;
 }
 
 .profile span {
